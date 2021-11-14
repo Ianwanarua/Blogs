@@ -34,3 +34,16 @@ To get the code..
   cd Blogs
   pip install -r requirements.txt
   ```
+3. Exporting Configurations
+  ```bash
+  export SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://{User Name}:{password}@localhost/{database name}
+  ```
+4. Running the application
+  ```bash
+  python3.8 manage.py server
+  ```
+5. Testing the application
+  ```bash
+  python3.8 manage.py test
+  ```
+Open the application on your browser `127.0.0.1:5000`.
