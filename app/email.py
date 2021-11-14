@@ -7,7 +7,7 @@ from flask_mail import Mail
 app = Flask(__name__)
 mail = Mail(app)
 
-sender_email = 'projectsmoringa@gmail.com'
+sender_email = 'ian.wanarua@student.moringaschool.com'
 subject_pref = 'Jay-Blogs'
 
 app.config['MAIL_SERVER'] = 'smtp.googlemail.com'
